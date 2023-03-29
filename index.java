@@ -11,4 +11,11 @@ public class index{
         System.out.println("The documentation for Amazon Cognito recommends using the AWS Amplify Framework Authentication Library from the AWS Amplify");
 
     }
+
+
+    public static void testGIT_Again() {
+
+        System.out.println("Try to test git Again");
+        
+    }
 }
