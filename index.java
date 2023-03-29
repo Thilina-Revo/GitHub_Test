@@ -5,5 +5,7 @@ public class index{
         System.out.println("My first Git Project");
         System.out.println("Edited this to merge master branch");
         System.out.println("I eddited this directly commit to master branch");
+        System.out.println("The documentation for Amazon Cognito recommends using the AWS Amplify Framework Authentication Library from the AWS Amplify");
+
     }
 }
