@@ -13,5 +13,17 @@
       Using the AWS Amplify Framework Authentication Library, we are able to programmatically drive the creation and authentication of users against a fully deployed back end.
       
       This illustrates the limited code from the AWS Amplify Framework needed to programmatically log an existing a user into an application.</h4>
+
+      <h3>
+        Component Support File
+      </h3>
+      <p>When you load a component or end-to-end spec file, it will first load something called a supportFile. By default, this is created for you during first-time setup of Cypress Component Testing and is located at cypress/support/component.js. This file gives you the opportunity to set up your spec's environment.
+
+        For component specs, you use this file to set up page-level concerns that would usually exist by the time you mount the component. Some examples include:
+        
+            Run-time JavaScript code (state management, routers, UI libraries)
+            Global styles (style resets, Tailwind)
+        
+        As a rule, your Component Support File should look very similar to your application's main JavaScript (ie: main.js, index.js) and main CSS (ie: main.css, index.css) files.</p>
   </body>
 </html>
